@@ -24,7 +24,7 @@ p {
 }
 
 //Gradient
-.name-callout, .intro {
+.name-callout, .intro, .navbar {
   //Thanks to @_ighosh for the sweet gradient (http://uigradients.com/)
   background: #43C6AC; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #43C6AC , #F8FFAE); /* Chrome 10-25, Safari 5.1-6 */
@@ -32,6 +32,14 @@ p {
 }
 
 .name-callout {
+  padding-top: -50px;
   margin: 0;
   color: black;
+}
+
+//Navbar styles
+.navbar {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
 }
