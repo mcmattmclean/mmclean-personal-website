@@ -19,6 +19,10 @@ h1, h4 {
    font-family: 'Raleway', sans-serif;
  }
 
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
 //Gradient
 .name-callout, .intro {
   //Thanks to @_ighosh for the sweet gradient (http://uigradients.com/)
@@ -29,4 +33,5 @@ h1, h4 {
 
 .name-callout {
   margin: 0;
+  color: black;
 }
