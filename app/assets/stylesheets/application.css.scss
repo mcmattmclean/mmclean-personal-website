@@ -14,6 +14,19 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
- h1 {
+//Typography styles
+h1, h4 {
    font-family: 'Raleway', sans-serif;
  }
+
+//Gradient
+.name-callout, .intro {
+  //Thanks to @_ighosh for the sweet gradient (http://uigradients.com/)
+  background: #43C6AC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #43C6AC , #F8FFAE); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #43C6AC , #F8FFAE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.name-callout {
+  margin: 0;
+}
