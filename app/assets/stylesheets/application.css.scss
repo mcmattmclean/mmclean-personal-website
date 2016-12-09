@@ -13,6 +13,8 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 //Typography styles
 h1, h3, h4 {
@@ -26,6 +28,11 @@ p {
 .blurb {
   font-size: 1.4em;
   font-family: 'Raleway', sans-serif;
+}
+
+//Adjust first row
+.first-row {
+  margin-top: 20px;
 }
 
 //Gradient
