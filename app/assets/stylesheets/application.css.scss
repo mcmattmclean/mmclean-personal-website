@@ -23,6 +23,11 @@ p {
   font-family: 'PT Sans', sans-serif;
 }
 
+.blurb {
+  font-size: 1.4em;
+  font-family: 'Raleway', sans-serif;
+}
+
 //Gradient
 .name-callout, .intro, .navbar {
   //Thanks to @_ighosh for the sweet gradient (http://uigradients.com/)
@@ -41,4 +46,11 @@ p {
   border: none;
   border-radius: 0;
   margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: black;
+  &:hover{
+    opacity: .75;
+  }
 }
