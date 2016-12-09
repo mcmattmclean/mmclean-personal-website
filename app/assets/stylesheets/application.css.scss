@@ -35,12 +35,8 @@ p {
   margin-top: 20px;
 }
 
-// .resume-header {
-//   border-bottom: 2px solid black;
-// }
-
 //Gradient
-.name-callout, .intro, .navbar {
+.name-callout, .intro, .navbar, footer {
   //Thanks to @_ighosh for the sweet gradient (http://uigradients.com/)
   background: #43C6AC; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #43C6AC , #F8FFAE); /* Chrome 10-25, Safari 5.1-6 */
