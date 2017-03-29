@@ -10,6 +10,54 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+//Typography styles
+h1, h3, h4 {
+   font-family: 'Raleway', sans-serif;
+ }
+
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.blurb {
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+}
+
+//Adjust first row
+.first-row {
+  margin-top: 20px;
+}
+
+//Gradient
+.name-callout, .intro, .navbar, footer {
+  //Thanks to @_ighosh for the sweet gradient (http://uigradients.com/)
+  background: #43C6AC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #43C6AC , #F8FFAE); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #43C6AC , #F8FFAE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.name-callout {
+  margin: 0;
+  color: black;
+}
+
+//Navbar styles
+.navbar {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: black;
+  &:hover{
+    opacity: .75;
+  }
+}
