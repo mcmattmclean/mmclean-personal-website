@@ -8,4 +8,7 @@ def
 
   def resume
   end
+
+  def contact
+  end
 end

@@ -27,6 +27,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Contact Me", contact_path%></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
             <li><%= link_to "About", about_path%></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -36,9 +39,9 @@
       </div><!-- /.container-fluid -->
     </nav>
     <%= yield %>
-    <footer>
-      <div class="container-fluid">
-        <h5>Matthew McLean | matthewmclean21@gmail.com | https://github.com/mcmattmclean</h5>
+    <footer class="foot">
+      <div class="container-fluid text-center">
+        <h6>© 2017 Matthew McLean | matthewmclean21@gmail.com | <a href="https://github.com/mcmattmclean">github.com/mcmattmclean</a></h6>
       </div>
     </footer>
   </body>
