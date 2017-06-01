@@ -8,6 +8,16 @@ p {
   font-size: 1.1em;
 }
 
+.profile-pic {
+  margin: 1em;
+}
+
+.projects {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
 .resume-sub {
   font-family: 'Raleway', sans-serif;
   font-size: 1.0em;
@@ -15,6 +25,7 @@ p {
 
 .blurb {
   font-family: 'Raleway', sans-serif;
+  margin-bottom: 1em;
 }
 
 /*Adjust first row due to bootstrap navbar*/
