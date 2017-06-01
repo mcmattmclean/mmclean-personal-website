@@ -1,0 +1,53 @@
+/*Typography styles*/
+h1, h3, h4 {
+   font-family: 'Raleway', sans-serif;
+ }
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+}
+
+.resume-sub {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.0em;
+}
+
+.blurb {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Adjust first row due to bootstrap navbar*/
+.first-row {
+  margin-top: 20px;
+}
+
+/*Color for header/footer*/
+.name-callout, .intro, .navbar, footer {
+  background: #bfe9ff;
+}
+
+.name-callout {
+  margin: 0;
+  color: black;
+}
+
+.foot {
+  color: black;
+  margin-top: 20px;
+}
+
+/*Navbar styles*/
+.navbar {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+a {
+  hover: 0.75;
+}
