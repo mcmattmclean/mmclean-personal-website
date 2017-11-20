@@ -1,3 +1,16 @@
+html {
+  /* Used for sticky footer */
+  position: relative;
+  min-height: 100%;
+}
+
+body { 
+  /* Navbar offset */
+  padding-top: 70px;
+  /* Sticky footer offset */
+  margin-bottom: 60px;
+}
+
 /*Typography styles*/
 h1, h3, h4 {
    font-family: 'Raleway', sans-serif;
