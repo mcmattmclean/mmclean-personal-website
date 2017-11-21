@@ -10,7 +10,7 @@
 </div>
 <div class="row">
   <div class="col-md-4 text-center">
-    <%= image_tag("profile-pic.jpg", alt: "Picture of Matt McLean")%>
+    <%= image_tag("profile-pic.jpg", alt: "Picture of Matt McLean", :class: "img-circle")%>
     <h4></h4>
   </div>
   <div class="col-md-8 text-left">
@@ -34,19 +34,19 @@
 <div class="row">
   <div class="col-md-4 text-center">
     <a href="https://github.com/mcmattmclean/MiskatonicMadness">
-      <img src="c.png" class="img-rounded">
+      <%= image_tag("c.png", alt: "Picture of Pacman eating two plus signs.", :class: "img-rounded")%>
       <h4>Miskatonic Madness</h4>
     </a>
   </div>
   <div class="col-md-4 text-center">
     <a href="https://github.com/mcmattmclean/online-resume-website">
-      <img src="assets/home.png" class="img-rounded">
+      <%= image_tag("home.png", alt: "Vector image of a house.", :class: "img-rounded")%>
       <h4>Personal Website</h4>
     </a>
   </div>
   <div class="col-md-4 text-center">
     <a href="https://github.com/mcmattmclean/saas-web-app">
-      <img src="assets/cloud.jpg" class="img-rounded">
+      <%= image_tag("cloud.jpg", alt: "Vector image of a cloud.", :class: "img-rounded")%>
       <h4>SAAS Web App</h4>
     </a>
   </div>
