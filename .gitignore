@@ -6,3 +6,4 @@
 
 # Why mac why
 .DS_Store
+**/node_modules
