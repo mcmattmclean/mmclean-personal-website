@@ -74,9 +74,8 @@ p {
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: black;
-
 }
 
-a {
-  hover: 0.75;
+a:hover {
+  opacity: 0.75;
 }
