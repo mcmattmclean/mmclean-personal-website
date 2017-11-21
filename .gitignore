@@ -22,3 +22,6 @@
 
 # Why mac why
 .DS_Store
+
+# Hangs around for Node branch
+**/node_modules
