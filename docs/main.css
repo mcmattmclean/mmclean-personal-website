@@ -5,8 +5,6 @@ html {
 }
 
 body { 
-  /* Navbar offset */
-  padding-top: 70px;
   /* Sticky footer offset */
   margin-bottom: 60px;
 }
@@ -38,6 +36,7 @@ p {
 
 .blurb {
   font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
   margin-bottom: 1em;
 }
 
@@ -59,6 +58,9 @@ p {
 .foot {
   color: black;
   margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /*Navbar styles*/
@@ -66,10 +68,13 @@ p {
   border: none;
   border-radius: 0;
   margin-bottom: 0;
+  font-size: 1.2em;
+  font-family: sans-serif;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: black;
+
 }
 
 a {
